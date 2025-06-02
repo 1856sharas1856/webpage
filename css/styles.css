@@ -1,0 +1,84 @@
+body {
+    padding-top: 20px;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+.badge {
+    font-size: 0.85em;
+    padding: 5px 8px;
+}
+
+.bg-primary { background-color: #0d6efd !important; }
+.bg-warning { background-color: #ffc107 !important; color: #000 !important; }
+.bg-success { background-color: #198754 !important; }
+.bg-danger { background-color: #dc3545 !important; }
+
+.list-group-item-action:hover {
+    background-color: #f8f9fa;
+}
+
+.table {
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table-warning {
+    background-color: rgba(255, 193, 7, 0.2);
+}
+
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #dc3545;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+textarea.form-control {
+    min-height: 100px;
+}
+
+/* Klaidų pranešimai */
+.invalid-feedback {
+    color: #dc3545;
+    font-size: 0.875em;
+    margin-top: 0.25rem;
+}
+
+/* Mygtukų grupė */
+.btn-group {
+    margin-top: 1rem;
+}
